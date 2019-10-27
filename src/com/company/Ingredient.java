@@ -1,12 +1,14 @@
 package com.company;
 
 
+import java.io.Serializable;
+
 /**
  * TO DO:
  * Conversions between units: Cups, Tbsp, tsp, Oz, g
  *
  */
-public class Ingredient {
+public class Ingredient implements Serializable {
 
 
     /**
