@@ -35,6 +35,15 @@ public class Ingredient implements Serializable {
         this.measurement = measurement;
         this.preparation = preparation;
     }
+    
+    /**
+     * Default Constructor to initialize default Ingredient Object to a standard banana of size 3 oz.
+     */
+    public Ingredient(){
+        this.name = "Banana";
+        this.measurement = "3 oz.";
+        this.preparation = "Pick that shit boiiii";
+    }
 
 
     /**
